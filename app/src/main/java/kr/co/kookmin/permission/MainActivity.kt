@@ -36,12 +36,12 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-/*
+
         val button : Button = findViewById(R.id.button)
         button.setOnClickListener {
             requestPermissions(permission_list,0)
         }
-*/
+
     }
 
 
