@@ -4,6 +4,7 @@ import android.Manifest
 import android.content.pm.PackageManager
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.TextView
 
 
@@ -35,7 +36,14 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+/*
+        val button : Button = findViewById(R.id.button)
+        button.setOnClickListener {
+            requestPermissions(permission_list,0)
+        }
+*/
     }
+
 
 
 }
